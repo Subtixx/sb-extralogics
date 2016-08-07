@@ -1,0 +1,40 @@
+{
+  "objectName" : "comparator",
+  "rarity" : "Common",
+  "colonyTags" : ["wire"],
+  "description" : "Given two inputs, the Comparator displays symbols: <, >, or =.",
+  "shortdescription" : "Comparator",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 500,
+  "printable" : false,
+
+  "inventoryIcon" : "comparatoricon.png",
+  "orientations" : [
+    {
+      "image" : "comparator.png:<color>.off",
+      "imagePosition" : [0, 0],
+	  
+	  "metaBoundBox" : [-32, -32, 32, 32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/scripts/datawire.lua", "comparator.lua" ],
+  "scriptDelta" : 20,
+
+  "animation" : "comparator.animation",
+
+  "animationParts" : {
+    "comparator" : "comparator.png",
+    "mode" : "modes.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [0, 1], [2, 1] ],
+  "outputNodes" : [ [1, 0] ]
+}

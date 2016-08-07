@@ -1,0 +1,51 @@
+{
+  "objectName" : "detector",
+  "rarity" : "Common",
+  "colonyTags" : ["wire"],
+  "description" : "Detects a variety of entity types",
+  "shortdescription" : "Entity Detector",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 300,
+  "printable" : false,
+
+  "inventoryIcon" : "detectoricon.png",
+  "orientations" : [
+    {
+      "image" : "detector.png:all.1",
+      "imagePosition" : [-8, -8],
+	  
+	  "metaBoundBox" : [-32, -32, 32, 32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "detector.lua" ],
+  "scriptDelta" : 12,
+
+  "animation" : "detector.animation",
+
+  "animationParts" : {
+    "detector" : "detector.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "detectModes" : [ "all", "owner", "player", "monster", "item", "npc", "vehicle"],
+  
+  "defaultStorage" : {
+    "range" : 5.5,
+    "mode" : 1,
+	"lightlevel": 3,
+    "ignoreWalls" : true,
+    "hidden" : false,
+    "camo" : false
+  },
+
+  "interactive" : true,
+  "interactData" : "/interface/detector/detector.config"
+}

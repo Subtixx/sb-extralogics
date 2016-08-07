@@ -1,0 +1,39 @@
+{
+  "objectName" : "memory",
+  "rarity" : "Common",
+  "colonyTags" : ["wire"],
+  "description" : "A memory storage cell.",
+  "shortdescription" : "Memory Cell",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 500,
+  "printable" : false,
+
+  "inventoryIcon" : "memoryicon.png",
+  "orientations" : [
+    {
+      "image" : "memory.png:<color>.none",
+      "imagePosition" : [-8, -8],
+	  
+	  "metaBoundBox" : [-32, -32, 32, 32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/scripts/datawire.lua", "memory.lua" ],
+  "scriptDelta" : 10,
+
+  "animation" : "memory.animation",
+
+  "animationParts" : {
+    "memory" : "memory.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inputNodes" : [ [-1, -1], [-1, 0], [0, 0] ],
+  "outputNodes" : [ [0, -1] ]
+}

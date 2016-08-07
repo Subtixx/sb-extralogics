@@ -1,0 +1,39 @@
+{
+  "objectName" : "operator",
+  "rarity" : "Common",
+  "colonyTags" : ["wire"],
+  "description" : "Add, subtract, multiply, or divide two numbers.",
+  "shortdescription" : "Operator",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 1000,
+  "printable" : false,
+
+  "inventoryIcon" : "operatoricon.png",
+  "orientations" : [
+    {
+      "image" : "operator.png:<color>.add",
+      "imagePosition" : [0, 0],
+	  
+	  "metaBoundBox" : [-32, -32, 32, 32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/scripts/datawire.lua", "operator.lua" ],
+  "scriptDelta" : 20,
+
+  "animation" : "operator.animation",
+
+  "animationParts" : {
+    "operator" : "operator.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [0, 1], [2, 1] ],
+  "outputNodes" : [ [1, 0] ]
+}
