@@ -1,0 +1,36 @@
+{
+  "objectName" : "effectstation",
+  "rarity" : "Common",
+  "colonyTags" : ["wire"],  
+  "description" : "Applies an effect to nearby players",
+  "shortdescription" : "Entity Effect",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 500,
+  "printable" : false,
+
+  "inventoryIcon" : "effectstationicon.png",
+  "orientations" : [
+    {
+      "image" : "effectstation.png:<color>.off",
+      "imagePosition" : [-8, -8],
+	  
+	  "metaBoundBox" : [-32, -32, 32, 32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "effectstation.lua" ],
+  "scriptDelta" : 10,
+
+  "animation" : "effectstation.animation",
+  "animationParts" : {
+    "scanner" : "effectstation.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inputNodes" : [ [0, -1] ]
+}
