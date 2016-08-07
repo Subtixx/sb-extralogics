@@ -9,3 +9,5 @@ starbound.log (only bugs):
 
 Do you have other mods installed? (please tick)
 - [ ] Yes
+
+- [ ] I have read the "Known Issues & Bugs" and did not found mine in there (please tick)
