@@ -2,9 +2,9 @@ function init(args)
   self.dead = false
 
   -- Data doesn't attack people
-  entity.setDamageOnTouch(false)
-  entity.setAggressive(false)
-  entity.setAnimationState("default", "idle")
+  monster.setDamageOnTouch(false)
+  monster.setAggressive(false)
+  animator.setAnimationState("default", "idle")
 end
 
 function main()
