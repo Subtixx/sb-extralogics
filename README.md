@@ -19,3 +19,6 @@ Adds the following logics:
 - Randomizer
 - Wiretap 
 - Activator
+- Effect Station
+- Seven segment display
+- Fourteen segment display
