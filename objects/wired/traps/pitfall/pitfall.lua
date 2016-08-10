@@ -9,7 +9,6 @@ function onInputNodeChange()
 end
 
 function update(dt)
-	--camoflague(not object.getInputNodeLevel(0))
 end
 
 function camoflague(camo)
