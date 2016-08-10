@@ -1,0 +1,119 @@
+{
+  "type" : "throwablemagnet",
+
+  "categories" : [ "throwablemagnet" ],
+  "parts" : [ "body" ],
+
+  "animation" : "throwablemagnet.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/colors.config",
+
+  "dropPools" : [ ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/magnets/throwablemagnet/behavior.lua"
+    ],
+
+    "scriptDelta" : 1,
+
+    "metaBoundBox" : [-0.5, -0.5, 0.5, 0.5],
+    "scale" : 1,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5] ],
+
+      "mass" : 1,
+      "walkSpeed" : 0,
+      "runSpeed" : 0,
+      "jumpSpeed" : 0,
+      "flySpeed" : 0,
+      "airFriction" : 0.5,
+      "airForce" : 20.0,
+      "gravityEnabled" : true,
+      "collisionEnabled" : true,
+      "frictionEnabled" : true
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-2.0, -2.5], [2.0, -2.5], [0.5, 1.0], [-0.5, 1.0] ],
+      "damage" : 15,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "testpoison",
+      "statusEffects" : [ ]
+    },
+
+    "statusSettings" : {
+      "baseMaxHealth" : 10,
+      "bodyMaterialKind" : "organic",
+      "damageConfig" : "/damage/damageresponse/allergen.config",
+	  
+	  "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.5
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 48
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        }
+      },
+	  
+	  "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+	  
+	  "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "inateStatusEffects" : [
+      {
+        "kind" : "Protection",
+        "amount" : 1.0
+      }
+    ],
+	
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, 0]
+  }
+}

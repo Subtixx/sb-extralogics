@@ -9,6 +9,9 @@
   "price" : 1,
   "printable" : false,
 
+  "floranDescription" : "Floran likesss daytime, and this tellsss of the comming moon.",
+  "glitchDescription" : "Curious. Without a sundial time is lost, but this seems to acurately display the time of the day.",
+
   "inventoryIcon" : "clock.png:default",
   "orientations" : [
     {

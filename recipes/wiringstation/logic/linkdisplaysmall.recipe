@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 1 },
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "stickofram", "count" : 1 },
+    { "item" : "wire", "count" : 3 }
+  ],
+  "output" : { "item" : "linkdisplaysmall", "count" : 1 },
+  "groups" : [ "craftingwiring", "logic" ]
+}

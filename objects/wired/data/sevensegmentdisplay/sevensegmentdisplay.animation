@@ -1,0 +1,246 @@
+{
+	"animatedParts" : {
+		"stateTypes" : {
+			"aDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"bDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"cDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"dDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"eDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"fDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"gDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"linkState" : {
+				"default" : "none",
+				"states" : {
+					"none" : {
+						"frames" : 1
+					},
+					"left" : {
+						"frames" : 1
+					},
+					"right" : {
+						"frames" : 1
+					},
+					"both" : {
+						"frames" : 1
+					}
+				}
+			}
+		},
+
+		"parts" : {
+			"asegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"aDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"bsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"bDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"csegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"cDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"dsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"dDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"esegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"eDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"fsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"fDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"gsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"gDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+
+			"frame" : {
+				"properties" : {
+					"centered" : false
+				},
+
+				"partStates" : {
+					"linkState" : {
+						"none" : {
+							"properties" : {
+								"image" : "<partImage>:none"
+							}
+						},
+						"left" : {
+							"properties" : {
+								"image" : "<partImage>:left"
+							}
+						},
+						"right" : {
+							"properties" : {
+								"image" : "<partImage>:right"
+							}
+						},
+						"both" : {
+							"properties" : {
+								"image" : "<partImage>:both"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
