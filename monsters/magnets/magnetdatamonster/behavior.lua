@@ -7,7 +7,7 @@ function init(args)
   animator.setAnimationState("default", "idle")
 end
 
-function main()
+function update(dt)
 end
 
 function damage(args)

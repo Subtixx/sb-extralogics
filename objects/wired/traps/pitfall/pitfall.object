@@ -1,0 +1,33 @@
+{
+  "objectName" : "pitfall",
+  "rarity" : "Common",
+  "colonyTags" : ["wire"],  
+  "description" : "Pitfall Trap",
+  "shortdescription" : "Pitfall Trap",
+  "race" : "generic",
+  "category" : "trap",
+  "price" : 500,
+  "printable" : false,
+
+  "inventoryIcon" : "pitfallicon.png",
+  "orientations" : [
+    {
+      "image" : "pitfall.png",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "pitfall.animation",
+
+  "animationParts" : {
+    "camo" : "pitfall.png"
+  },
+
+  "scripts" : [ "pitfall.lua" ],
+  "scriptDelta" : 10,
+
+  "inputNodes" : [ [0, 0] ]
+}

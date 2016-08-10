@@ -1,0 +1,34 @@
+{
+   "animatedParts" : {
+      "stateTypes" : {
+	      "camoState" : {
+	        "default" : "block",
+	        "states" : {
+	          "block" : {
+	            "frames" : 1
+	          },
+	          "hidden" : {
+	          }
+	        }
+	      }
+      },
+
+      "parts" : {
+	      "camo" : {
+	        "properties" : {
+	          "centered" : true
+	        },
+
+	        "partStates" : {
+	          "camoState" : {
+	            "block" : {
+	              "properties" : {
+	                "image" : "<partImage>:block"
+	              }
+	            }
+	          }
+	        }
+	      }
+      }
+   }
+}
