@@ -12,7 +12,7 @@ function init()
 	}
 	storage.color = config.getParameter("color") and config.getParameter("color") or 1
 
-	self.displaySize = config.getParameter("displaySize") and config.getParameter("displaySize") or 3
+	self.displaySize = config.getParameter("displaySize") and config.getParameter("displaySize") or 5
 
 	object.setInteractive(true)
 
@@ -34,13 +34,13 @@ function die()
 	local position = object.position()
 
 	if(storage.supportedColors[storage.color] and storage.color ~= 1) then
-	   world.spawnItem("sevensegmentdisplay", {position[1] + 2, position[2] + 1}, 1, {
+	   world.spawnItem("fourteensegmentdisplay", {position[1] + 2, position[2] + 1}, 1, {
 	      color=storage.supportedColors[storage.color],
 	      description=string.format(config.getParameter("colorDescription"), storage.supportedColors[storage.color])
 	   })
 	   return
 	else
-		world.spawnItem("sevensegmentdisplay", {position[1] + 2, position[2] + 1}, 1, {})
+		world.spawnItem("fourteensegmentdisplay", {position[1] + 2, position[2] + 1}, 1, {})
 	end
 end
 
@@ -51,7 +51,14 @@ function onInputNodeChange()
 	animator.setAnimationState("dDataState", object.getInputNodeLevel(3) and "on" or "off")
 	animator.setAnimationState("eDataState", object.getInputNodeLevel(4) and "on" or "off")
 	animator.setAnimationState("fDataState", object.getInputNodeLevel(5) and "on" or "off")
-	animator.setAnimationState("gDataState", object.getInputNodeLevel(6) and "on" or "off")
+	animator.setAnimationState("g1DataState", object.getInputNodeLevel(6) and "on" or "off")
+	animator.setAnimationState("g2DataState", object.getInputNodeLevel(7) and "on" or "off")
+	animator.setAnimationState("hDataState", object.getInputNodeLevel(8) and "on" or "off")
+	animator.setAnimationState("iDataState", object.getInputNodeLevel(9) and "on" or "off")
+	animator.setAnimationState("jDataState", object.getInputNodeLevel(10) and "on" or "off")
+	animator.setAnimationState("kDataState", object.getInputNodeLevel(11) and "on" or "off")
+	animator.setAnimationState("lDataState", object.getInputNodeLevel(12) and "on" or "off")
+	animator.setAnimationState("mDataState", object.getInputNodeLevel(13) and "on" or "off")
 end
 
 function onInteraction()
@@ -73,9 +80,16 @@ function setSegmentColor(color)
 		animator.setPartTag("dsegment", "color", storage.supportedColors[color])
 		animator.setPartTag("esegment", "color", storage.supportedColors[color])
 		animator.setPartTag("fsegment", "color", storage.supportedColors[color])
-		animator.setPartTag("gsegment", "color", storage.supportedColors[color])
+		animator.setPartTag("g1segment", "color", storage.supportedColors[color])
+		animator.setPartTag("g2segment", "color", storage.supportedColors[color])
+		animator.setPartTag("hsegment", "color", storage.supportedColors[color])
+		animator.setPartTag("isegment", "color", storage.supportedColors[color])
+		animator.setPartTag("jsegment", "color", storage.supportedColors[color])
+		animator.setPartTag("ksegment", "color", storage.supportedColors[color])
+		animator.setPartTag("lsegment", "color", storage.supportedColors[color])
+		animator.setPartTag("msegment", "color", storage.supportedColors[color])
 	else
-		sb.logError("Unsupported color in 7-segment display: " .. sb.print(color))
+		sb.logError("Unsupported color in 14-segment display: " .. sb.print(color))
 	end
 end
 

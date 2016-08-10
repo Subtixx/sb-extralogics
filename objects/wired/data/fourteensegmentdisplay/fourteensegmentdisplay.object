@@ -1,16 +1,16 @@
 {
-  "objectName" : "sevensegmentdisplay",
+  "objectName" : "fourteensegmentdisplay",
   "rarity" : "Common",
   "colonyTags" : ["wire"],
   "description" : "7-Segmentdisplay",
-  "colorDescription" : "7-Segmentdisplay\n\nColor Mode: %s",
-  "shortdescription" : "7-Segmentdisplay",
+  "colorDescription" : "14-Segmentdisplay\n\nColor Mode: %s",
+  "shortdescription" : "14-Segmentdisplay",
   "race" : "generic",
   "category" : "wire",
   "price" : 500,
   "printable" : false,
   
-  "inventoryIcon" : "sevensegmentdisplayicon.png",
+  "inventoryIcon" : "fourteensegmentdisplayicon.png",
 
   "orientations" : [
     {
@@ -28,7 +28,7 @@
 
   "breakDropOptions": [],
 
-  "animation" : "sevensegmentdisplay.animation",
+  "animation" : "fourteensegmentdisplay.animation",
 
   "animationParts" : {
     "frame" : "frame.png",
@@ -38,24 +38,38 @@
     "dsegment" : "dsegment.png",
     "esegment" : "esegment.png",
     "fsegment" : "fsegment.png",
-    "gsegment" : "gsegment.png"
+    "g1segment" : "g1segment.png",
+    "g2segment" : "g2segment.png",
+    "hsegment" : "hsegment.png",
+    "isegment" : "isegment.png",
+    "jsegment" : "jsegment.png",
+    "ksegment" : "ksegment.png",
+    "lsegment" : "lsegment.png",
+    "msegment" : "msegment.png"
   },
 
   "animationPosition" : [-8, -8],
 
-  "scripts" : [ "sevensegmentdisplay.lua" ],
+  "scripts" : [ "fourteensegmentdisplay.lua" ],
   "scriptDelta" : 10,
 
   "inputNodes" : [
     [0, 3], // A
-    [1, 2], // B
-    [1, 0], // C
+    [3, 2], // B
+    [3, 0], // C
     [0, -1], // D
     [-1, 0], // E
     [-1, 2], // F
-    [0, 1] // G
+    [0, 1], // G1
+    [1, 1], // G2
+    [0, 2], // H
+    [1, 2], // I
+    [2, 2], // J
+    [2, 0], // K
+    [1, 0], // L
+    [0, 0] // M
   ],
 
-  "displaySize" : 3,
+  "displaySize" : 5,
   "countInterval" : 1
 }

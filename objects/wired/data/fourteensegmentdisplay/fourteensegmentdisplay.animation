@@ -1,0 +1,436 @@
+{
+	"animatedParts" : {
+		"stateTypes" : {
+			"aDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"bDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"cDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"dDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"eDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"fDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"g1DataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"g2DataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"hDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"iDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"jDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"kDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"lDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+			"mDataState" : {
+				"default": "off",
+				"states":{
+					"off" : { "frames": 1},
+					"on" : { "frames": 1}
+				}
+			},
+
+			"linkState" : {
+				"default" : "none",
+				"states" : {
+					"none" : {
+						"frames" : 1
+					},
+					"left" : {
+						"frames" : 1
+					},
+					"right" : {
+						"frames" : 1
+					},
+					"both" : {
+						"frames" : 1
+					}
+				}
+			}
+		},
+
+		"parts" : {
+			"asegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"aDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"bsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"bDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"csegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"cDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"dsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"dDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"esegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"eDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"fsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"fDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"g1segment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"g1DataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"g2segment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"g2DataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"hsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"hDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"isegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"iDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"jsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"jDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"ksegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"kDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"lsegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"lDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+			"msegment" : {
+	        "properties" : {
+	          "centered" : false
+	        },
+
+	        "partStates" : {
+					"mDataState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.on"
+							}
+						}
+					}
+	        }
+			},
+
+			"frame" : {
+				"properties" : {
+					"centered" : false
+				},
+
+				"partStates" : {
+					"linkState" : {
+						"none" : {
+							"properties" : {
+								"image" : "<partImage>:none"
+							}
+						},
+						"left" : {
+							"properties" : {
+								"image" : "<partImage>:left"
+							}
+						},
+						"right" : {
+							"properties" : {
+								"image" : "<partImage>:right"
+							}
+						},
+						"both" : {
+							"properties" : {
+								"image" : "<partImage>:both"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
