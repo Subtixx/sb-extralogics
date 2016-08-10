@@ -1,13 +1,14 @@
 {
   "frameGrid" : {
-    "size" : [22, 37],
+    "size" : [24, 37],
     "dimensions" : [4, 1],
     "names" : [
-      [ "default.none", "default.left", "default.right", "default.both" ]
+      [ "none", "left", "right", "both" ]
     ]
   },
 
   "aliases" : {
-    "default.default" : "default.none"
+    "default" : "none",
+    "default.none" : "none"
   }
 }

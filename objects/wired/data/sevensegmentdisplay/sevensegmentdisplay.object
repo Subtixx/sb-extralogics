@@ -25,6 +25,8 @@
     }
   ],
 
+  "breakDropOptions": [],
+
   "animation" : "sevensegmentdisplay.animation",
 
   "animationParts" : {
@@ -53,6 +55,6 @@
     [0, 1] // G
   ],
 
-  "displaySize" : 2,
+  "displaySize" : 3,
   "countInterval" : 1
 }

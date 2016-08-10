@@ -79,12 +79,12 @@
 					"aDataState" : {
 						"off" : {
 							"properties" : {
-								"image" : "<partImage>:off"
+								"image" : "<partImage>:<color>.off"
 							}
 						},
 						"on" : {
 							"properties" : {
-								"image" : "<partImage>:on"
+								"image" : "<partImage>:<color>.on"
 							}
 						}
 					}
@@ -99,12 +99,12 @@
 					"bDataState" : {
 						"off" : {
 							"properties" : {
-								"image" : "<partImage>:off"
+								"image" : "<partImage>:<color>.off"
 							}
 						},
 						"on" : {
 							"properties" : {
-								"image" : "<partImage>:on"
+								"image" : "<partImage>:<color>.on"
 							}
 						}
 					}
@@ -119,12 +119,12 @@
 					"cDataState" : {
 						"off" : {
 							"properties" : {
-								"image" : "<partImage>:off"
+								"image" : "<partImage>:<color>.off"
 							}
 						},
 						"on" : {
 							"properties" : {
-								"image" : "<partImage>:on"
+								"image" : "<partImage>:<color>.on"
 							}
 						}
 					}
@@ -139,12 +139,12 @@
 					"dDataState" : {
 						"off" : {
 							"properties" : {
-								"image" : "<partImage>:off"
+								"image" : "<partImage>:<color>.off"
 							}
 						},
 						"on" : {
 							"properties" : {
-								"image" : "<partImage>:on"
+								"image" : "<partImage>:<color>.on"
 							}
 						}
 					}
@@ -159,12 +159,12 @@
 					"eDataState" : {
 						"off" : {
 							"properties" : {
-								"image" : "<partImage>:off"
+								"image" : "<partImage>:<color>.off"
 							}
 						},
 						"on" : {
 							"properties" : {
-								"image" : "<partImage>:on"
+								"image" : "<partImage>:<color>.on"
 							}
 						}
 					}
@@ -179,12 +179,12 @@
 					"fDataState" : {
 						"off" : {
 							"properties" : {
-								"image" : "<partImage>:off"
+								"image" : "<partImage>:<color>.off"
 							}
 						},
 						"on" : {
 							"properties" : {
-								"image" : "<partImage>:on"
+								"image" : "<partImage>:<color>.on"
 							}
 						}
 					}
@@ -199,12 +199,12 @@
 					"gDataState" : {
 						"off" : {
 							"properties" : {
-								"image" : "<partImage>:off"
+								"image" : "<partImage>:<color>.off"
 							}
 						},
 						"on" : {
 							"properties" : {
-								"image" : "<partImage>:on"
+								"image" : "<partImage>:<color>.on"
 							}
 						}
 					}
@@ -220,22 +220,22 @@
 					"linkState" : {
 						"none" : {
 							"properties" : {
-								"image" : "<partImage>:<color>.none"
+								"image" : "<partImage>:none"
 							}
 						},
 						"left" : {
 							"properties" : {
-								"image" : "<partImage>:<color>.left"
+								"image" : "<partImage>:left"
 							}
 						},
 						"right" : {
 							"properties" : {
-								"image" : "<partImage>:<color>.right"
+								"image" : "<partImage>:right"
 							}
 						},
 						"both" : {
 							"properties" : {
-								"image" : "<partImage>:<color>.both"
+								"image" : "<partImage>:both"
 							}
 						}
 					}
