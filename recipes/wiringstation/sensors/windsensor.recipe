@@ -6,5 +6,5 @@
     { "item" : "stickofram", "count" : 1 }
   ],
   "output" : { "item" : "windsensor", "count" : 1 },
-  "groups" : [ "craftingwiring", "sensors" ]
+  "groups" : [ "disabled" ] // [ "craftingwiring", "sensors" ]
 }
