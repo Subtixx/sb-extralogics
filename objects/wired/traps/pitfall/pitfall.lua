@@ -1,10 +1,15 @@
 -- TODO: Maybe add a way to increase the size of the pitfall with datawires.
 ---      Sending two numbers one for X and one for Y
 function init()
+	camoflague(true)
+end
+
+function onInputNodeChange()
+	camoflague(not object.getInputNodeLevel(0))
 end
 
 function update(dt)
-	camoflague(not object.getInputNodeLevel(0))
+	--camoflague(not object.getInputNodeLevel(0))
 end
 
 function camoflague(camo)
