@@ -73,6 +73,9 @@ on what we're actually doing, not wandering off into too much imaginary stuff.
 
 # Recommended Code Structures
 
+## General
+  1. Please use a tab size of 3
+
 ## Object lua
 ```
 function init()
@@ -81,6 +84,7 @@ end
 
 -- Events here
 function onInteraction()
+
 end
 
 -- Wired Events here
@@ -90,5 +94,6 @@ function onNodeConnectionChange()
 end
 
 function onInputNodeChange()
+
 end
 ```

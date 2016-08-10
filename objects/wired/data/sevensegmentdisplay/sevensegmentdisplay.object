@@ -1,0 +1,58 @@
+{
+  "objectName" : "sevensegmentdisplay",
+  "rarity" : "Common",
+  "colonyTags" : ["wire"],
+  "description" : "7-Segmentdisplay",
+  "shortdescription" : "7-Segmentdisplay",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 500,
+  "printable" : false,
+  
+  "inventoryIcon" : "sevensegmentdisplayicon.png",
+
+  "orientations" : [
+    {
+      "image" : "frame.png:<color>.none",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+	  
+      "metaBoundBox" : [-32, -32, 32, 32],
+
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "sevensegmentdisplay.animation",
+
+  "animationParts" : {
+    "frame" : "frame.png",
+    "asegment" : "asegment.png",
+    "bsegment" : "bsegment.png",
+    "csegment" : "csegment.png",
+    "dsegment" : "dsegment.png",
+    "esegment" : "esegment.png",
+    "fsegment" : "fsegment.png",
+    "gsegment" : "gsegment.png"
+  },
+
+  "animationPosition" : [-8, -8],
+
+  "scripts" : [ "sevensegmentdisplay.lua" ],
+  "scriptDelta" : 10,
+
+  "inputNodes" : [
+    [0, 3], // A
+    [1, 2], // B
+    [1, 0], // C
+    [0, -1], // D
+    [-1, 0], // E
+    [-1, 2], // F
+    [0, 1] // G
+  ],
+
+  "displaySize" : 2,
+  "countInterval" : 1
+}
