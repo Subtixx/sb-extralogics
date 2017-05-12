@@ -190,7 +190,7 @@ function update(dt)
 	  else
       if(storage.data:match("[^%w%s]")) then dataStr = "0" else
       --dataStr = string.format("%d", math.floor(storage.data))
-	    dataStr = string.format("%s", tostring(storage.data))
+	    dataStr = string.format("%s", string.upper(tostring(storage.data))) -- Force string & upper
       end
 	  end
 	  takeOneAndPassToYourLeft({data = storage.data, dataString = dataStr:sub(1, #dataStr)})
