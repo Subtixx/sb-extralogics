@@ -72,7 +72,7 @@ function onDetect(entityId)
     elseif storage.currentMode == "maxhp" then
       sample = math.floor(world.entityHealth(entityId)[2])
     end
-	sb.logInfo(sb.print(sample))
+	 --sb.logInfo(sb.print(sample)) -- DEBUG
     datawire.sendData(sample, "number", 0)
   else
     datawire.sendData(0, "number", 0)

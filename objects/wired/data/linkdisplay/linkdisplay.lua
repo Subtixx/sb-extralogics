@@ -115,7 +115,7 @@ function getData()
 end
 
 function setData(data)
-  storage.data = data
+  storage.data = tostring(data)
 
   if storage.connectedRight then
     world.callScriptedEntity(storage.connectedRight, "setData", data)

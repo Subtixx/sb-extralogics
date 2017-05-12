@@ -46,7 +46,7 @@ function logInfo(data, dataType)
   if dataType == "number" then
     if storage.prevData == nil or data == storage.prevData then
       logString = "^white;" .. dataType .. " : " .. data
-    elseif data > storage.prevData then
+    elseif tonumber(data) > storage.prevData then
       logString = "^white;" .. dataType .. " : ^green;" .. data
     else
       logString = "^white;" .. dataType .. " : ^red;" .. data
