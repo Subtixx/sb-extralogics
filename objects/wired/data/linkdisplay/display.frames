@@ -1,0 +1,15 @@
+{
+  "frameGrid" : {
+    "size" : [16, 16],
+    "dimensions" : [38, 2],
+    "names" : [
+      [ "default.off", "default.A", "default.B", "default.C", "default.D", "default.E", "default.F", "default.G", "default.H", "default.I", "default.J", "default.K", "default.L", "default.M", "default.N", "default.O", "default.P", "default.Q", "default.R", "default.S", "default.T", "default.U", "default.V", "default.W", "default.X", "default.Y", "default.Z", "default.0", "default.1", "default.2", "default.3", "default.4", "default.5", "default.6", "default.7", "default.8", "default.9", "default.."],
+      [ "default.flipped.Z", "default.flipped.Y", "default.flipped.X", "default.flipped.W", "default.flipped.V", "default.flipped.U", "default.flipped.T", "default.flipped.S", "default.flipped.R", "default.flipped.Q", "default.flipped.P", "default.flipped.O", "default.flipped.N", "default.flipped.M", "default.flipped.L", "default.flipped.K", "default.flipped.J", "default.flipped.I", "default.flipped.H", "default.flipped.G", "default.flipped.F", "default.flipped.E", "default.flipped.D", "default.flipped.C", "default.flipped.B", "default.flipped.A", "default.-", "default.flipped.9", "default.flipped.8", "default.flipped.7", "default.flipped.6", "default.flipped.5", "default.flipped.4", "default.flipped.3", "default.flipped.2", "default.flipped.1", "default.flipped.0", "default.flipped.."]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "default.off",
+    "default.flippped.off" : "default.off"
+  }
+}

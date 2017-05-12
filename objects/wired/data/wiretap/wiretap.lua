@@ -1,3 +1,4 @@
+-- TODO: Clear button?
 function init(virtual)
   if not virtual then
     if storage.fingerpint == nil then
@@ -72,9 +73,9 @@ function getPopupString()
   popupString = {}
   for i = 1, #storage.logStack, 1 do
     popupString[i] = {}
-	popupString[i].item = i
-	popupString[i].icon = "/interface/wiretap/blank.png"
-	popupString[i].colour = "green"
+	  popupString[i].item = i
+	  popupString[i].icon = "/interface/wiretap/blank.png"
+	  popupString[i].colour = "green"
     popupString[i].message = storage.logStack[i]
   end
   

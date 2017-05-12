@@ -21,10 +21,10 @@ function onNodeConnectionChange()
 end
 
 function onInputNodeChange(args)
-  checkInboundNodes()
+  checkinputNodes()
 end
 
-function checkInboundNodes()
+function checkinputNodes()
   local nodeIndex = 0
   while nodeIndex < object.inputNodeCount() do
     local newLevel = object.getInputNodeLevel(nodeIndex)
