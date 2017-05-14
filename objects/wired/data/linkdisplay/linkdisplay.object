@@ -14,13 +14,9 @@
   "orientations" : [
     {
       "image" : "frame.png:<color>.none",
-      "imagePosition" : [-8, -8],
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-	  
-	  "metaBoundBox" : [-32, -32, 32, 32],
-
       "direction" : "right"
     }
   ],
@@ -38,6 +34,8 @@
   "scriptDelta" : 10,
 
   "inputNodes" : [ [-1, 0] ],
+
+  "interactive" : true,
 
   "displaySize" : 2,
 

@@ -89,6 +89,7 @@ function setSegmentColor(color)
 		animator.setPartTag("ksegment", "color", storage.supportedColors[color])
 		animator.setPartTag("lsegment", "color", storage.supportedColors[color])
 		animator.setPartTag("msegment", "color", storage.supportedColors[color])
+		object.setConfigParameter("color", color)
 	else
 		sb.logError("Unsupported color in 14-segment display: " .. sb.print(color))
 	end

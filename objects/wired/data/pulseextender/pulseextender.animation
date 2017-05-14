@@ -1,0 +1,46 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "switchState" : {
+        "default" : "off",
+        "states" : {
+          "hidden" : {
+            "frames" : 1
+          },
+          "off" : {
+            "frames" : 1
+          },
+          "on" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "pulseextender" : {
+        "partStates" : {
+          "switchState" : {
+            "hidden" : {
+              "properties" : {
+                "image" : "<partImage>:default.hidden"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default.on"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

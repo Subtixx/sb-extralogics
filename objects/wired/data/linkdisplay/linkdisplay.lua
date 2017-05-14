@@ -14,8 +14,33 @@ function init(virtual)
       self.displaySize = 1
     end
 
+    storage.supportedColors = {
+        "default", -- default color
+        "black",
+        "pink",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "red"
+    }
+    storage.color = config.getParameter("color") and config.getParameter("color") or 1
+
+    object.setInteractive(true)
+
     datawire.init()
   end
+end
+
+function onInteraction()
+  if(storage.color < #storage.supportedColors) then
+    storage.color = storage.color + 1
+  else
+    storage.color = 1
+  end
+
+  setSegmentColor(storage.color)
+  object.say("Set color to " .. storage.supportedColors[storage.color])
 end
 
 function initAfterLoading()
@@ -196,4 +221,13 @@ function update(dt)
 	  takeOneAndPassToYourLeft({data = storage.data, dataString = dataStr:sub(1, #dataStr)})
     end
   end
+end
+
+function setSegmentColor(color)
+    if(storage.supportedColors[color]) then
+        animator.setPartTag("display", "color", storage.supportedColors[color])
+        object.setConfigParameter("color", color)
+    else
+        sb.logError("Unsupported color in link display: " .. sb.print(color))
+    end
 end

@@ -1,0 +1,42 @@
+{
+  "objectName" : "pulseformer",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "",
+  "shortdescription" : "Pulse Former",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 10,
+
+  "inventoryIcon" : "pulseformer.png:default.on",
+  "orientations" : [
+    {
+      "image" : "pulseformer.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "pulseformer.animation",
+  "animationParts" : {
+    "pulseformer" : "pulseformer.png"
+  },
+
+  "scripts" : [ "pulseformer.lua" ],
+  "scriptDelta" : 60, // 1 update per sec.
+
+  "inputNodes" : [ [-1, 0] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "defaultStorage" : {
+    "hidden" : false,
+    "camo" : false
+  },
+
+  "interactive" : true,
+  "interactData" : "/interface/pulseformer/pulseformer.config"
+}

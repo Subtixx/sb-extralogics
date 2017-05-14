@@ -27,8 +27,7 @@
   "scripts" : [ "/objects/wired/data/advancedtimer/timer.lua" ],
   "scriptDelta" : 1,
 
-  "animation" : "/objects/wired/logic/logic.animation",
-
+  "animation" : "/objects/wired/data/advancedtimer/timer.animation",
   "animationParts" : {
     "switch" : "timer.png"
   },

@@ -69,5 +69,5 @@ function send(dataOrKey, value)
 	  data = {}
 	  data[dataOrKey] = value
 	end
-  world.sendEntityMessage(pane.sourceEntity(), "setData", data)
+  	world.sendEntityMessage(pane.sourceEntity(), "setData", data)
 end

@@ -1,9 +1,9 @@
 {
   "author" : "Clockwork",
-  "description" : "[h1]ATTENTION:[/h1]\nThis is an alpha version. And is not intended to be used on productional / main character. Do not complain about breaking changes and game breaking bugs!\n\n[h1]Note:[/h1]\nThis is an updated version of the logic circuits and datawire from [url=http://community.playstarbound.com/resources/starfoundry.1302/]Starfoundry[/url]. If the original author want this to be removed, please contact me through the starbound forums.",
+  "description" : "[h1]ATTENTION:[/h1]\nThis is an alpha version. And is not intended to be used on productional / main character. Do not complain about breaking changes and game breaking bugs!\n\n[h1]Implemented Logics[/h1]\n- Advanced Timer\n- Analog Clock\n- Binarizer\n- Comparator\n- Counter\n- Detector\n- Entityscanner\n- Linkdisplay\n- Small Linkdisplay\n- Memory\n- Operator\n- Randomizer\n- Wiretap\n- Constant\n- Pittrap\n- Spiketrap\n\n[url=https://github.com/Subtixx/sb-extralogics/wiki]More Information[/url]\n\n[h1]Note:[/h1]\nThis is an updated and custom version of the logic circuits and datawire from [url=http://community.playstarbound.com/resources/starfoundry.1302/]Starfoundry[/url]. If the original author want this to be removed, please contact me.",
   "friendlyName" : "Extra Logics [ALPHA AKA DO NOT USE ON YOUR PRECIOUS SAVE FILE]",
   "link" : "steam://url/CommunityFilePage/738930584",
   "name" : "Extra Logics",
   "steamContentId" : "738930584",
-  "version" : "v0.5 for Cheerful Giraffe"
+  "version" : "v0.7 for Cheerful Giraffe"
 }

@@ -1,0 +1,43 @@
+{
+  "objectName" : "pulseextender",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "",
+  "shortdescription" : "Pulse Extender",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 10,
+
+  "inventoryIcon" : "pulseextender.png:default.on",
+  "orientations" : [
+    {
+      "image" : "pulseextender.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "pulseextender.animation",
+  "animationParts" : {
+    "pulseextender" : "pulseextender.png"
+  },
+
+  "scripts" : [ "pulseextender.lua" ],
+  "scriptDelta" : 60, // 1 sec
+
+  "inputNodes" : [ [-1, 0] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "defaultStorage" : {
+    "timerval" : 5,
+    "hidden" : false,
+    "camo" : false
+  },
+
+  "interactive" : true,
+  "interactData" : "/interface/pulseextender/pulseextender.config"
+}
