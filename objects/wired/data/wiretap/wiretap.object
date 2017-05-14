@@ -15,8 +15,6 @@
     {
       "image" : "wiretap.png:<color>.off",
       "imagePosition" : [-8, -8],
-	  
-	  "metaBoundBox" : [-32, -32, 32, 32],
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]

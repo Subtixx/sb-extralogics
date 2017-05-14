@@ -1,3 +1,4 @@
+-- TODO: UI?
 function init()
 
 	storage.supportedColors = {

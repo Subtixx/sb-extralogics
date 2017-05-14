@@ -102,7 +102,8 @@ function isLinkedDisplayToLeft(pos, displaySize, entityId)
 end
 
 function validateData(data, dataType, nodeId, sourceEntityId)
-  return dataType == "number"
+  --return dataType == "number"
+  return true
 end
 
 function onValidDataReceived(data, dataType, nodeId, sourceEntityId)
@@ -114,7 +115,7 @@ function getData()
 end
 
 function setData(data)
-  storage.data = data
+  storage.data = tostring(data)
 
   if storage.connectedRight then
     world.callScriptedEntity(storage.connectedRight, "setData", data)
@@ -133,6 +134,9 @@ function takeOneAndPassToYourLeft(args)
   local newDisplayData
   if #args.dataString >= 1 then
     newDisplayData = args.dataString:sub(#args.dataString, #args.dataString)
+    if(newDisplayData == " ") then -- Check spaces and replace it with off state
+      newDisplayData = "off"
+   end
   end
   updateDisplay(newDisplayData)
 
@@ -182,9 +186,12 @@ function update(dt)
   if storage.data then
     if not storage.connectedRight then
 	  if(self.dataFormat == "%.1f" and math.floor(storage.data) ~= storage.data) then
-		dataStr = string.format(self.dataFormat, storage.data)
+		  dataStr = string.format(self.dataFormat, storage.data)
 	  else
-	    dataStr = string.format("%d", math.floor(storage.data))
+      if(storage.data:match("[^%w%s]")) then dataStr = "0" else
+      --dataStr = string.format("%d", math.floor(storage.data))
+	    dataStr = string.format("%s", string.upper(tostring(storage.data))) -- Force string & upper
+      end
 	  end
 	  takeOneAndPassToYourLeft({data = storage.data, dataString = dataStr:sub(1, #dataStr)})
     end

@@ -1,3 +1,4 @@
+-- TODO: Clear button?
 function init(virtual)
   if not virtual then
     if storage.fingerpint == nil then
@@ -45,7 +46,7 @@ function logInfo(data, dataType)
   if dataType == "number" then
     if storage.prevData == nil or data == storage.prevData then
       logString = "^white;" .. dataType .. " : " .. data
-    elseif data > storage.prevData then
+    elseif tonumber(data) > storage.prevData then
       logString = "^white;" .. dataType .. " : ^green;" .. data
     else
       logString = "^white;" .. dataType .. " : ^red;" .. data
@@ -72,9 +73,9 @@ function getPopupString()
   popupString = {}
   for i = 1, #storage.logStack, 1 do
     popupString[i] = {}
-	popupString[i].item = i
-	popupString[i].icon = "/interface/wiretap/blank.png"
-	popupString[i].colour = "green"
+	  popupString[i].item = i
+	  popupString[i].icon = "/interface/wiretap/blank.png"
+	  popupString[i].colour = "green"
     popupString[i].message = storage.logStack[i]
   end
   

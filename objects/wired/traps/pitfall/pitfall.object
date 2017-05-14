@@ -26,8 +26,8 @@
     "camo" : "pitfall.png"
   },
 
-  "scripts" : [ "pitfall.lua" ],
+  "scripts" : [ "/scripts/datawire.lua", "pitfall.lua" ],
   "scriptDelta" : 10,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0], [1, 0] ]
 }

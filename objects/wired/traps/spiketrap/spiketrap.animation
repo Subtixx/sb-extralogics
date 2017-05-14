@@ -1,0 +1,40 @@
+{
+   "animatedParts" : {
+      "stateTypes" : {
+         "spikesState" : {
+            "default" : "off",
+            "states" : {
+               "off" : {
+                  "frames" : 1
+               },
+               "on" : {
+                  "frames" : 1
+               }
+            }
+         }
+      },
+
+      "parts" : {
+         "spikes" : {
+            "properties" : {
+               "centered" : false
+            },
+
+            "partStates" : {
+               "spikesState" : {
+                  "off" : {
+                     "properties" : {
+                        "image" : "<partImage>:off"
+                     }
+                  },
+                  "on" : {
+                     "properties" : {
+                        "image" : "<partImage>:on"
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

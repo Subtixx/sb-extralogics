@@ -7,6 +7,84 @@
           "off" : {
             "frames" : 1
           },
+          "A": {
+            "frames" : 1
+          },
+          "B": {
+            "frames" : 1
+          },
+          "C": {
+            "frames" : 1
+          },
+          "D": {
+            "frames" : 1
+          },
+          "E": {
+            "frames" : 1
+          },
+          "F": {
+            "frames" : 1
+          },
+          "G": {
+            "frames" : 1
+          },
+          "H": {
+            "frames" : 1
+          },
+          "I": {
+            "frames" : 1
+          },
+          "J": {
+            "frames" : 1
+          },
+          "K": {
+            "frames" : 1
+          },
+          "L": {
+            "frames" : 1
+          },
+          "M": {
+            "frames" : 1
+          },
+          "N": {
+            "frames" : 1
+          },
+          "O": {
+            "frames" : 1
+          },
+          "P": {
+            "frames" : 1
+          },
+          "R": {
+            "frames" : 1
+          },
+          "Q": {
+            "frames" : 1
+          },
+          "S": {
+            "frames" : 1
+          },
+          "T": {
+            "frames" : 1
+          },
+          "U": {
+            "frames" : 1
+          },
+          "V": {
+            "frames" : 1
+          },
+          "W": {
+            "frames" : 1
+          },
+          "X": {
+            "frames" : 1
+          },
+          "Y": {
+            "frames" : 1
+          },
+          "Z": {
+            "frames" : 1
+          },
           "0" : {
             "frames" : 1
           },
@@ -44,6 +122,84 @@
             "frames" : 1
           },
           "flipped.off" : {
+            "frames" : 1
+          },
+          "flipped.A": {
+            "frames" : 1
+          },
+          "flipped.B": {
+            "frames" : 1
+          },
+          "flipped.C": {
+            "frames" : 1
+          },
+          "flipped.D": {
+            "frames" : 1
+          },
+          "flipped.E": {
+            "frames" : 1
+          },
+          "flipped.F": {
+            "frames" : 1
+          },
+          "flipped.G": {
+            "frames" : 1
+          },
+          "flipped.H": {
+            "frames" : 1
+          },
+          "flipped.I": {
+            "frames" : 1
+          },
+          "flipped.J": {
+            "frames" : 1
+          },
+          "flipped.K": {
+            "frames" : 1
+          },
+          "flipped.L": {
+            "frames" : 1
+          },
+          "flipped.M": {
+            "frames" : 1
+          },
+          "flipped.N": {
+            "frames" : 1
+          },
+          "flipped.O": {
+            "frames" : 1
+          },
+          "flipped.P": {
+            "frames" : 1
+          },
+          "flipped.R": {
+            "frames" : 1
+          },
+          "flipped.Q": {
+            "frames" : 1
+          },
+          "flipped.S": {
+            "frames" : 1
+          },
+          "flipped.T": {
+            "frames" : 1
+          },
+          "flipped.U": {
+            "frames" : 1
+          },
+          "flipped.V": {
+            "frames" : 1
+          },
+          "flipped.W": {
+            "frames" : 1
+          },
+          "flipped.X": {
+            "frames" : 1
+          },
+          "flipped.Y": {
+            "frames" : 1
+          },
+          "flipped.Z": {
             "frames" : 1
           },
           "flipped.0" : {
@@ -104,7 +260,7 @@
     },
 
     "parts" : {
-      "digits" : {
+      "display" : {
         "properties" : {
           "centered" : false
         },
@@ -114,6 +270,136 @@
             "off" : {
               "properties" : {
                 "image" : "<partImage>:<color>.off"
+              }
+            },
+            "A": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.A"
+              }
+            },
+            "B": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.B"
+              }
+            },
+            "C": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.C"
+              }
+            },
+            "D": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.D"
+              }
+            },
+            "E": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.E"
+              }
+            },
+            "F": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.F"
+              }
+            },
+            "G": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.G"
+              }
+            },
+            "H": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.H"
+              }
+            },
+            "I": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.I"
+              }
+            },
+            "J": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.J"
+              }
+            },
+            "K": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.K"
+              }
+            },
+            "L": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.L"
+              }
+            },
+            "M": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.M"
+              }
+            },
+            "N": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.N"
+              }
+            },
+            "O": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.O"
+              }
+            },
+            "P": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.P"
+              }
+            },
+            "R": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.R"
+              }
+            },
+            "Q": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.Q"
+              }
+            },
+            "S": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.S"
+              }
+            },
+            "T": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.T"
+              }
+            },
+            "U": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.U"
+              }
+            },
+            "V": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.V"
+              }
+            },
+            "W": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.W"
+              }
+            },
+            "X": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.X"
+              }
+            },
+            "Y": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.Y"
+              }
+            },
+            "Z": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.Z"
               }
             },
             "0" : {
@@ -179,6 +465,136 @@
             "flipped.off" : {
               "properties" : {
                 "image" : "<partImage>:<color>.flipped.off"
+              }
+            },
+            "flipped.A": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.A"
+              }
+            },
+            "flipped.B": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.B"
+              }
+            },
+            "flipped.C": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.C"
+              }
+            },
+            "flipped.D": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.D"
+              }
+            },
+            "flipped.E": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.E"
+              }
+            },
+            "flipped.F": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.F"
+              }
+            },
+            "flipped.G": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.G"
+              }
+            },
+            "flipped.H": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.H"
+              }
+            },
+            "flipped.I": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.I"
+              }
+            },
+            "flipped.J": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.J"
+              }
+            },
+            "flipped.K": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.K"
+              }
+            },
+            "flipped.L": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.L"
+              }
+            },
+            "flipped.M": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.M"
+              }
+            },
+            "flipped.N": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.N"
+              }
+            },
+            "flipped.O": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.O"
+              }
+            },
+            "flipped.P": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.P"
+              }
+            },
+            "flipped.R": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.R"
+              }
+            },
+            "flipped.Q": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.Q"
+              }
+            },
+            "flipped.S": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.S"
+              }
+            },
+            "flipped.T": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.T"
+              }
+            },
+            "flipped.U": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.U"
+              }
+            },
+            "flipped.V": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.V"
+              }
+            },
+            "flipped.W": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.W"
+              }
+            },
+            "flipped.X": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.X"
+              }
+            },
+            "flipped.Y": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.Y"
+              }
+            },
+            "flipped.Z": {
+              "properties" : {
+                  "image" : "<partImage>:<color>.flipped.Z"
               }
             },
             "flipped.0" : {
